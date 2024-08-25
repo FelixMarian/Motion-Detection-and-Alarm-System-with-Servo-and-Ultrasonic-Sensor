@@ -9,7 +9,7 @@ This project uses a servo motor and ultrasonic sensor to continuously scan surro
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Structure](#code-structure)
-  - [Arduino UNO](#arduino-uno)
+  - [Arduino UNO](#arduino-uno) 
     - [Button Class](#button-class)
     - [ServoMotor Class](#servomotor-class)
     - [Ultrasonic Sensor Class](#ultrasonic-sensor-class)
@@ -46,8 +46,8 @@ This project uses a servo motor and ultrasonic sensor to continuously scan surro
 
 ## Installation
 1. **Connect the Arduino components**: Assemble the circuit as per the provided circuit diagram.
-2. **Upload Arduino UNO Code**: Use the Arduino IDE or other suitable software to upload the provided Arduino code ('UnoTransmitter/UnoTransmitter.ino') to your Arduino UNO board.
-3. **Upload Arduino MEGA Code**: Use the Arduino IDE or other suitable software to upload the provided Arduino code ('MegaReciever/MegaReciever.ino') to your Arduino MEGA board.
+2. **Upload Arduino UNO Code**: Use the Arduino IDE or other suitable software to upload the provided Arduino code (`UnoTransmitter/UnoTransmitter.ino`) to your Arduino UNO board.
+3. **Upload Arduino MEGA Code**: Use the Arduino IDE or other suitable software to upload the provided Arduino code (`MegaReciever/MegaReciever.ino`) to your Arduino MEGA board.
 4. **Connect the power supplies**: Connect USB-B cable to Arduino UNO and the 9V battery to Arduno MEGA to ensure it has enough power.
 
 ## Usage
