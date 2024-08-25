@@ -1,6 +1,6 @@
 # Motion Detection and Alarm System with Servo and Ultrasonic Sensor
 
-This project uses a servo motor and ultrasonic sensor to continuously scan surroundings. It detects movement by measuring distance changes and triggers an alarm with a buzzer if significant variations are found. Includes RGB LED for visual alerts. It can be used as a motion alarm
+This project uses a servo motor and ultrasonic sensor to continuously scan surroundings. It detects movement by measuring distance changes and triggers an alarm with a buzzer if significant variations are found. Includes RGB LED for visual alerts. It can be used as a motion alarm. An example of how it works cand be found at (`Video.mp4`)
 
 ## Table of Contents
 - [Components Used](#components-used)
@@ -39,10 +39,10 @@ This project uses a servo motor and ultrasonic sensor to continuously scan surro
 - ???x Male-tomale jumper wires
 
 ## Circuit Diagram
-![Circuit Diagram](Diagrams/Radar_bb.pdf)
+![Circuit Diagram](Diagrams/Radar_bb.png)
 
 ## Schematic View
-![Schematic View](Diagrams/Radar_schem.pdf)
+![Schematic View](Diagrams/Radar_schem.png)
 
 ## Installation
 1. **Connect the Arduino components**: Assemble the circuit as per the provided circuit diagram.
@@ -85,7 +85,7 @@ The Arduino UNO in this project can process three main commands to control the s
 **Note:** The step size and time interval are saved to EEPROM memory to preserve these settings even if the Arduino loses power. The EEPROM addresses used are:
 - **Step size**: Stored at address `0x00`
 - **Time interval**: Stored at address `0x04`
-- **Video demonstration** at 'Command_Usage.mp4'
+- **Video demonstration** at (`Command_Usage.mp4`) 
 
 ### Arduino MEGA
 #### Compare arrays
