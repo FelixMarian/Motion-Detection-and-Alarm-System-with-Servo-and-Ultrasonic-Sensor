@@ -39,10 +39,10 @@ This project uses a servo motor and ultrasonic sensor to continuously scan surro
 - ???x Male-tomale jumper wires
 
 ## Circuit Diagram
-![Circuit Diagram](Diagrams/Radar_bb.png)
+![Circuit Diagram](Diagrams/Radar_bb-1.png)
 
 ## Schematic View
-![Schematic View](Diagrams/Radar_schem.png)
+![Schematic View](Diagrams/Radar_schem-1.png)
 
 ## Installation
 1. **Connect the Arduino components**: Assemble the circuit as per the provided circuit diagram.
